@@ -1,0 +1,20 @@
+{
+  "name": "Axle",
+  "short_name": "Axle",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ed8a13",
+  "icons": [
+    {
+      "src": "axle-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "axle-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
