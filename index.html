@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axle</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#ed8a13" />
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    iframe {
+      flex: 1;
+      border: none;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://copilotstudio.microsoft.com/environments/Default-1ab2829b-1314-4bd0-814c-5a333f27bf7b/bots/crc2d_axle/webchat?__version__=2"></iframe>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>
